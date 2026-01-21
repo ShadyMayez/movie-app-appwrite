@@ -2,20 +2,24 @@
 
 ## 🎬 Movie Discovery Web App
 
-A modern movie discovery web application built with **React**, **Tailwind CSS**, and **Appwrite**.  
-The project demonstrates full frontend–backend integration, authentication-ready backend setup, and production-level project structure.
+A modern, responsive movie discovery platform built with **React.js** and **Vite**. This application allows users to explore trending movies, search for their favorite titles, and discover new releases using real-time data from the TMDB API, with a backend powered by **Appwrite** to track search trends.
 
 ---
 
-### 🚀 Features
+##  Overview
 
-- 🔍 Search for movies with a clean UI
-- 🎥 Trending movies section
-- 🧾 Movie cards with rating, language, and release year
-- 🎨 Modern responsive design using Tailwind CSS
-- ☁️ Backend-as-a-Service using Appwrite
-- 🔐 Ready for authentication & database storage
-- 🧩 Scalable and production-ready architecture
+This project is a high-performance web application designed to provide a seamless movie browsing experience. It combines a sleek UI with efficient data fetching and a backend-as-a-service (BaaS) integration.
+---
+
+### Features
+
+-  **Optimized Real-time Search:** Instantly find movies using the search bar. This feature implements Debouncing to wait for a user to finish typing before sending an API request, drastically reducing the number of unnecessary network calls to TMDB.
+- **Trending Movies:** Displays a "Trending" section based on search frequency, powered by **Appwrite Database**.
+- **Dynamic Content:** Fetches live movie data, including posters, ratings, and release dates from TMDB.
+- **Optimized Performance:** Built with Vite for lightning-fast development and optimized production builds.
+- **Responsive Design:** Fully accessible across mobile, tablet, and desktop devices.
+
+---
 
 ---
 <img width="1900" height="832" alt="React-app" src="https://github.com/user-attachments/assets/49957968-aa34-4bd0-9734-1d4c4540ba5a" />
