@@ -39,7 +39,7 @@ The project demonstrates full frontend–backend integration, authentication-rea
 
 ## 📁 Project Structure
 <img width="2080" height="1512" alt="src" src="https://github.com/user-attachments/assets/9b509dc0-2569-4487-96be-8324a4fc3fa3" />
-
+```text
 movie-app-appwrite/
 ├── public/
 │   ├── hero-bg.png
