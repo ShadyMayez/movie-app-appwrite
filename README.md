@@ -18,6 +18,9 @@ The project demonstrates full frontend–backend integration, authentication-rea
 - 🧩 Scalable and production-ready architecture
 
 ---
+<img width="1900" height="832" alt="React-app" src="https://github.com/user-attachments/assets/49957968-aa34-4bd0-9734-1d4c4540ba5a" />
+<img width="1904" height="872" alt="React-app(1)" src="https://github.com/user-attachments/assets/c518c12e-d0f5-4a92-9c6f-ce3a7ddb397f" />
+
 
 ## 🛠 Tech Stack
 
@@ -35,12 +38,33 @@ The project demonstrates full frontend–backend integration, authentication-rea
 ---
 
 ## 📁 Project Structure
-src/
-├── components/
-├── pages/
-├── services/
-│ └── appwrite.js
-├── styles/
-├── App.jsx
-└── main.jsx
+<img width="2080" height="1512" alt="src" src="https://github.com/user-attachments/assets/9b509dc0-2569-4487-96be-8324a4fc3fa3" />
+
+movie-app-appwrite/
+├── public/
+│   ├── hero-bg.png
+│   ├── hero-img.png
+│   ├── logo.png
+│   ├── No-Poster.png
+│   ├── Rating.svg
+│   └── Vector.svg
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── MovieCard.jsx
+│   │   └── Search.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── appwrite.js
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── LICENSE
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
 
