@@ -1,16 +1,39 @@
-# React + Vite
+# React + Vite + Tailwindcss + Appwrite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎬 Movie Discovery Web App
 
-Currently, two official plugins are available:
+A modern movie discovery web application built with **React**, **Tailwind CSS**, and **Appwrite**.  
+The project demonstrates full frontend–backend integration, authentication-ready backend setup, and production-level project structure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+### 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Search for movies with a clean UI
+- 🎥 Trending movies section
+- 🧾 Movie cards with rating, language, and release year
+- 🎨 Modern responsive design using Tailwind CSS
+- ☁️ Backend-as-a-Service using Appwrite
+- 🔐 Ready for authentication & database storage
+- 🧩 Scalable and production-ready architecture
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+### Frontend
+- React (Vite)
+- Tailwind CSS
+- JavaScript (ES6+)
+
+### Backend
+- Appwrite (BaaS)
+  - Web SDK
+  - Database
+  - Authentication-ready setup
+
+---
+
+## 📁 Project Structure
+
+
