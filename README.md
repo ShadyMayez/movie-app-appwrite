@@ -35,5 +35,12 @@ The project demonstrates full frontend–backend integration, authentication-rea
 ---
 
 ## 📁 Project Structure
-
+src/
+├── components/
+├── pages/
+├── services/
+│ └── appwrite.js
+├── styles/
+├── App.jsx
+└── main.jsx
 
