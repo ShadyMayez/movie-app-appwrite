@@ -39,32 +39,30 @@ The project demonstrates full frontend–backend integration, authentication-rea
 
 ## 📁 Project Structure
 <img width="2080" height="1512" alt="src" src="https://github.com/user-attachments/assets/9b509dc0-2569-4487-96be-8324a4fc3fa3" />
-```text
+
 movie-app-appwrite/
-├── public/
+├── public/                 # Static assets (images, logos, icons)
 │   ├── hero-bg.png
 │   ├── hero-img.png
 │   ├── logo.png
 │   ├── No-Poster.png
 │   ├── Rating.svg
 │   └── Vector.svg
-├── src/
-│   ├── assets/
+├── src/                    # Application source code
+│   ├── assets/             # Project-specific assets
 │   │   └── react.svg
-│   ├── components/
+│   ├── components/         # Reusable React components
 │   │   ├── MovieCard.jsx
 │   │   └── Search.jsx
-│   ├── App.css
-│   ├── App.jsx
-│   ├── appwrite.js
-│   ├── index.css
-│   └── main.jsx
-├── .gitignore
-├── eslint.config.js
-├── index.html
-├── LICENSE
-├── package-lock.json
-├── package.json
-├── README.md
-└── vite.config.js
+│   ├── App.css             # Main application styles
+│   ├── App.jsx             # Root component
+│   ├── appwrite.js         # Appwrite configuration & client
+│   ├── index.css           # Global styles
+│   └── main.jsx            # Entry point
+├── .gitignore              # Files to ignore in Git
+├── eslint.config.js        # Linting rules
+├── index.html              # HTML template
+├── LICENSE                 # Project license
+├── package.json            # Dependencies and scripts
+└── vite.config.js          # Vite configuration
 
